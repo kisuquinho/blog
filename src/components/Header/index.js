@@ -1,4 +1,4 @@
-import logo from '../../svg/icon-dice.svg'
+import logo from '../../svg/logo.svg'
 
 const Header = () =>{
     const descLogo = "Essa é a logo do blog.";
