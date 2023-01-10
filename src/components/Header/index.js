@@ -1,3 +1,5 @@
+import React from 'react'
+import ReactDOM from 'react-dom'
 import logo from '../../svg/logo.svg'
 
 const Header = () =>{

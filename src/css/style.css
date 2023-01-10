@@ -1,1 +1,934 @@
-*{margin:0;padding:0;box-sizing:border-box}.color-blue{color:#2DC7ED}h1,h2,h3,h4,h5,h6,.nav-link{color:white;font-family:'Poppins', sans-serif}h1{font-size:64px;font-weight:300}h2{font-size:48px;font-weight:300}h3{font-size:36px;font-weight:300}h4{font-size:24px;font-weight:300}h5{font-size:18px;text-transform:uppercase;letter-spacing:1px;color:#4DDCFF;font-weight:300}h6{font-size:16px;font-weight:300}p{font-size:16px;font-family:'Poppins', sans-serif;font-weight:300;color:#6D6E70}body{width:100%;background-color:#050607}.s-0{margin:0;padding:0}.m-0{margin:0 !important}.m-1{margin:8px !important}.m-2{margin:16px !important}.m-3{margin:24px !important}.m-4{margin:32px !important}.m-5{margin:48px !important}.m-6{margin:64px !important}.m-7{margin:72px !important}.m-8{margin:96px !important}.m-9{margin:128px !important}.mt-0{margin-top:0 !important}.mt-1{margin-top:8px !important}.mt-2{margin-top:16px !important}.mt-3{margin-top:24px !important}.mt-4{margin-top:32px !important}.mt-5{margin-top:48px !important}.mt-6{margin-top:64px !important}.mt-7{margin-top:72px !important}.mt-8{margin-top:96px !important}.mt-9{margin-top:128px !important}.ml-0{margin-left:0 !important}.ml-1{margin-left:8px !important}.ml-2{margin-left:16px !important}.ml-3{margin-left:24px !important}.ml-4{margin-left:32px !important}.ml-5{margin-left:48px !important}.ml-6{margin-left:64px !important}.ml-7{margin-left:72px !important}.ml-8{margin-left:96px !important}.ml-9{margin-left:128px !important}.mr-0{margin-right:0 !important}.mr-1{margin-right:8px !important}.mr-2{margin-right:16px !important}.mr-3{margin-right:24px !important}.mr-4{margin-right:32px !important}.mr-5{margin-right:48px !important}.mr-6{margin-right:64px !important}.mr-7{margin-right:72px !important}.mr-8{margin-right:96px !important}.mr-9{margin-right:128px !important}.mb-0{margin-bottom:0 !important}.mb-1{margin-bottom:8px !important}.mb-2{margin-bottom:16px !important}.mb-3{margin-bottom:24px !important}.mb-4{margin-bottom:32px !important}.mb-5{margin-bottom:48px !important}.mb-6{margin-bottom:64px !important}.mb-7{margin-bottom:72px !important}.mb-8{margin-bottom:96px !important}.mb-9{margin-bottom:128px !important}.mx-0{margin-left:0 !important;margin-right:0 !important}.mx-1{margin-left:8px !important;margin-right:8px !important}.mx-2{margin-left:16px !important;margin-right:16px !important}.mx-3{margin-left:24px !important;margin-right:24px !important}.mx-4{margin-left:32px !important;margin-right:32px !important}.mx-5{margin-left:48px !important;margin-right:48px !important}.mx-6{margin-left:64px !important;margin-right:64px !important}.mx-7{margin-left:72px !important;margin-right:72px !important}.mx-8{margin-left:96px !important;margin-right:96px !important}.mx-9{margin-left:128px !important;margin-right:128px !important}.my-0{margin-top:0 !important;margin-bottom:0 !important}.my-1{margin-top:8px !important;margin-bottom:8px !important}.my-2{margin-top:16px !important;margin-bottom:16px !important}.my-3{margin-top:24px !important;margin-bottom:24px !important}.my-4{margin-top:32px !important;margin-bottom:32px !important}.my-5{margin-top:48px !important;margin-bottom:48px !important}.my-6{margin-top:64px !important;margin-bottom:64px !important}.my-7{margin-top:72px !important;margin-bottom:72px !important}.my-8{margin-top:96px !important;margin-bottom:96px !important}.my-9{margin-top:128px !important;margin-bottom:128px !important}.p-0{padding:0 !important}.p-1{padding:8px !important}.p-2{padding:16px !important}.p-3{padding:24px !important}.p-4{padding:32px !important}.p-5{padding:48px !important}.p-6{padding:64px !important}.p-7{padding:72px !important}.p-8{padding:96px !important}.p-9{padding:128px !important}.pt-0{padding-top:0 !important}.pt-1{padding-top:8px !important}.pt-2{padding-top:16px !important}.pt-3{padding-top:24px !important}.pt-4{padding-top:32px !important}.pt-5{padding-top:48px !important}.pt-6{padding-top:64px !important}.pt-7{padding-top:72px !important}.pt-8{padding-top:96px !important}.pt-9{padding-top:128px !important}.pl-0{padding-left:0 !important}.pl-1{padding-left:8px !important}.pl-2{padding-left:16px !important}.pl-3{padding-left:24px !important}.pl-4{padding-left:32px !important}.pl-5{padding-left:48px !important}.pl-6{padding-left:64px !important}.pl-7{padding-left:72px !important}.pl-8{padding-left:96px !important}.pl-9{padding-left:128px !important}.pr-0{padding-right:0 !important}.pr-1{padding-right:8px !important}.pr-2{padding-right:16px !important}.pr-3{padding-right:24px !important}.pr-4{padding-right:32px !important}.pr-5{padding-right:48px !important}.pr-6{padding-right:64px !important}.pr-7{padding-right:72px !important}.pr-8{padding-right:96px !important}.pr-9{padding-right:128px !important}.pb-0{padding-bottom:0 !important}.pb-1{padding-bottom:8px !important}.pb-2{padding-bottom:16px !important}.pb-3{padding-bottom:24px !important}.pb-4{padding-bottom:32px !important}.pb-5{padding-bottom:48px !important}.pb-6{padding-bottom:64px !important}.pb-7{padding-bottom:72px !important}.pb-8{padding-bottom:96px !important}.pb-9{padding-bottom:128px !important}.px-0{padding-left:0 !important;padding-right:0 !important}.px-1{padding-left:8px !important;padding-right:8px !important}.px-2{padding-left:16px !important;padding-right:16px !important}.px-3{padding-left:24px !important;padding-right:24px !important}.px-4{padding-left:32px !important;padding-right:32px !important}.px-5{padding-left:48px !important;padding-right:48px !important}.px-6{padding-left:64px !important;padding-right:64px !important}.px-7{padding-left:72px !important;padding-right:72px !important}.px-8{padding-left:96px !important;padding-right:96px !important}.px-9{padding-left:128px !important;padding-right:128px !important}.py-0{padding-top:0 !important;padding-bottom:0 !important}.py-1{padding-top:8px !important;padding-bottom:8px !important}.py-2{padding-top:16px !important;padding-bottom:16px !important}.py-3{padding-top:24px !important;padding-bottom:24px !important}.py-4{padding-top:32px !important;padding-bottom:32px !important}.py-5{padding-top:48px !important;padding-bottom:48px !important}.py-6{padding-top:64px !important;padding-bottom:64px !important}.py-7{padding-top:72px !important;padding-bottom:72px !important}.py-8{padding-top:96px !important;padding-bottom:96px !important}.py-9{padding-top:128px !important;padding-bottom:128px !important}.flex{display:flex}.flex-space-between{display:flex;justify-content:space-between;align-items:center}.container{max-width:1200px;margin:0  auto;padding:8px 24px}.border{outline:1px solid #53ffa9}a{text-decoration:none;color:#EDEFF0}header{max-width:1200px;margin:0 auto;padding:24px}.menu{display:flex;list-style:none}.menu li{margin-left:24px}.nav-link{display:inline-block;padding:8px;transition:.5s ease}.nav-link:hover{opacity:.7}.input_search{height:48px;min-width:300px;background-color:#15171A;border:0;border-radius:4px;color:#FAFCFC;padding:8px}.img-profile{width:56px;height:56px;background-color:#4E4E50;border-radius:50%}.container-posts{display:flex}
+/* line 1, ../../VSProjects/blog/src/css/sass/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 25, ../../VSProjects/blog/src/css/sass/_colors.scss */
+.color-blue {
+  color: #2DC7ED;
+}
+
+/* line 1, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 6, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h1 {
+  font-size: 64px;
+  font-weight: 300;
+}
+
+/* line 11, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+/* line 16, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h3 {
+  font-size: 36px;
+  font-weight: 300;
+}
+
+/* line 21, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h4 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+/* line 26, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4DDCFF;
+  font-weight: 300;
+}
+
+/* line 34, ../../VSProjects/blog/src/css/sass/_typography.scss */
+h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+/* line 39, ../../VSProjects/blog/src/css/sass/_typography.scss */
+p {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #6D6E70;
+}
+
+/* line 10, ../../VSProjects/blog/src/css/sass/style.scss */
+body {
+  width: 100%;
+  background-color: #050607;
+}
+
+/* line 15, ../../VSProjects/blog/src/css/sass/style.scss */
+button {
+  padding: 8px;
+  background-color: #F5F7F7;
+  border: 0;
+  border-radius: 4px;
+}
+
+/* line 12, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.s-0 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 17, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-0 {
+  margin: 0 !important;
+}
+
+/* line 20, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-1 {
+  margin: 8px !important;
+}
+
+/* line 23, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-2 {
+  margin: 16px !important;
+}
+
+/* line 26, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-3 {
+  margin: 24px !important;
+}
+
+/* line 29, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-4 {
+  margin: 32px !important;
+}
+
+/* line 32, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-5 {
+  margin: 48px !important;
+}
+
+/* line 35, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-6 {
+  margin: 64px !important;
+}
+
+/* line 38, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-7 {
+  margin: 72px !important;
+}
+
+/* line 41, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-8 {
+  margin: 96px !important;
+}
+
+/* line 44, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.m-9 {
+  margin: 128px !important;
+}
+
+/* line 50, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+/* line 53, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-1 {
+  margin-top: 8px !important;
+}
+
+/* line 56, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-2 {
+  margin-top: 16px !important;
+}
+
+/* line 59, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-3 {
+  margin-top: 24px !important;
+}
+
+/* line 62, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-4 {
+  margin-top: 32px !important;
+}
+
+/* line 65, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-5 {
+  margin-top: 48px !important;
+}
+
+/* line 68, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-6 {
+  margin-top: 64px !important;
+}
+
+/* line 71, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-7 {
+  margin-top: 72px !important;
+}
+
+/* line 74, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-8 {
+  margin-top: 96px !important;
+}
+
+/* line 77, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mt-9 {
+  margin-top: 128px !important;
+}
+
+/* line 82, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-0 {
+  margin-left: 0 !important;
+}
+
+/* line 85, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-1 {
+  margin-left: 8px !important;
+}
+
+/* line 88, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-2 {
+  margin-left: 16px !important;
+}
+
+/* line 91, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-3 {
+  margin-left: 24px !important;
+}
+
+/* line 94, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-4 {
+  margin-left: 32px !important;
+}
+
+/* line 97, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-5 {
+  margin-left: 48px !important;
+}
+
+/* line 100, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-6 {
+  margin-left: 64px !important;
+}
+
+/* line 103, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-7 {
+  margin-left: 72px !important;
+}
+
+/* line 106, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-8 {
+  margin-left: 96px !important;
+}
+
+/* line 109, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.ml-9 {
+  margin-left: 128px !important;
+}
+
+/* line 114, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+/* line 117, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-1 {
+  margin-right: 8px !important;
+}
+
+/* line 120, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-2 {
+  margin-right: 16px !important;
+}
+
+/* line 123, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-3 {
+  margin-right: 24px !important;
+}
+
+/* line 126, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-4 {
+  margin-right: 32px !important;
+}
+
+/* line 129, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-5 {
+  margin-right: 48px !important;
+}
+
+/* line 132, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-6 {
+  margin-right: 64px !important;
+}
+
+/* line 135, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-7 {
+  margin-right: 72px !important;
+}
+
+/* line 138, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-8 {
+  margin-right: 96px !important;
+}
+
+/* line 141, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mr-9 {
+  margin-right: 128px !important;
+}
+
+/* line 146, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+/* line 149, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-1 {
+  margin-bottom: 8px !important;
+}
+
+/* line 152, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-2 {
+  margin-bottom: 16px !important;
+}
+
+/* line 155, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-3 {
+  margin-bottom: 24px !important;
+}
+
+/* line 158, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-4 {
+  margin-bottom: 32px !important;
+}
+
+/* line 161, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-5 {
+  margin-bottom: 48px !important;
+}
+
+/* line 164, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-6 {
+  margin-bottom: 64px !important;
+}
+
+/* line 167, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-7 {
+  margin-bottom: 72px !important;
+}
+
+/* line 170, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-8 {
+  margin-bottom: 96px !important;
+}
+
+/* line 173, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mb-9 {
+  margin-bottom: 128px !important;
+}
+
+/* line 178, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-0 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* line 182, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-1 {
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+/* line 186, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-2 {
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+}
+
+/* line 190, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-3 {
+  margin-left: 24px !important;
+  margin-right: 24px !important;
+}
+
+/* line 194, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-4 {
+  margin-left: 32px !important;
+  margin-right: 32px !important;
+}
+
+/* line 198, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-5 {
+  margin-left: 48px !important;
+  margin-right: 48px !important;
+}
+
+/* line 202, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-6 {
+  margin-left: 64px !important;
+  margin-right: 64px !important;
+}
+
+/* line 206, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-7 {
+  margin-left: 72px !important;
+  margin-right: 72px !important;
+}
+
+/* line 210, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-8 {
+  margin-left: 96px !important;
+  margin-right: 96px !important;
+}
+
+/* line 214, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.mx-9 {
+  margin-left: 128px !important;
+  margin-right: 128px !important;
+}
+
+/* line 220, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* line 224, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-1 {
+  margin-top: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+/* line 228, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-2 {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+/* line 232, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-3 {
+  margin-top: 24px !important;
+  margin-bottom: 24px !important;
+}
+
+/* line 236, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-4 {
+  margin-top: 32px !important;
+  margin-bottom: 32px !important;
+}
+
+/* line 240, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-5 {
+  margin-top: 48px !important;
+  margin-bottom: 48px !important;
+}
+
+/* line 244, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-6 {
+  margin-top: 64px !important;
+  margin-bottom: 64px !important;
+}
+
+/* line 248, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-7 {
+  margin-top: 72px !important;
+  margin-bottom: 72px !important;
+}
+
+/* line 252, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-8 {
+  margin-top: 96px !important;
+  margin-bottom: 96px !important;
+}
+
+/* line 256, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.my-9 {
+  margin-top: 128px !important;
+  margin-bottom: 128px !important;
+}
+
+/* line 262, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-0 {
+  padding: 0 !important;
+}
+
+/* line 265, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-1 {
+  padding: 8px !important;
+}
+
+/* line 268, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-2 {
+  padding: 16px !important;
+}
+
+/* line 271, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-3 {
+  padding: 24px !important;
+}
+
+/* line 274, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-4 {
+  padding: 32px !important;
+}
+
+/* line 277, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-5 {
+  padding: 48px !important;
+}
+
+/* line 280, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-6 {
+  padding: 64px !important;
+}
+
+/* line 283, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-7 {
+  padding: 72px !important;
+}
+
+/* line 286, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-8 {
+  padding: 96px !important;
+}
+
+/* line 289, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.p-9 {
+  padding: 128px !important;
+}
+
+/* line 294, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-0 {
+  padding-top: 0 !important;
+}
+
+/* line 297, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-1 {
+  padding-top: 8px !important;
+}
+
+/* line 300, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-2 {
+  padding-top: 16px !important;
+}
+
+/* line 303, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-3 {
+  padding-top: 24px !important;
+}
+
+/* line 306, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-4 {
+  padding-top: 32px !important;
+}
+
+/* line 309, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-5 {
+  padding-top: 48px !important;
+}
+
+/* line 312, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-6 {
+  padding-top: 64px !important;
+}
+
+/* line 315, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-7 {
+  padding-top: 72px !important;
+}
+
+/* line 318, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-8 {
+  padding-top: 96px !important;
+}
+
+/* line 321, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pt-9 {
+  padding-top: 128px !important;
+}
+
+/* line 327, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-0 {
+  padding-left: 0 !important;
+}
+
+/* line 330, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-1 {
+  padding-left: 8px !important;
+}
+
+/* line 333, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-2 {
+  padding-left: 16px !important;
+}
+
+/* line 336, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-3 {
+  padding-left: 24px !important;
+}
+
+/* line 339, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-4 {
+  padding-left: 32px !important;
+}
+
+/* line 342, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-5 {
+  padding-left: 48px !important;
+}
+
+/* line 345, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-6 {
+  padding-left: 64px !important;
+}
+
+/* line 348, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-7 {
+  padding-left: 72px !important;
+}
+
+/* line 351, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-8 {
+  padding-left: 96px !important;
+}
+
+/* line 354, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pl-9 {
+  padding-left: 128px !important;
+}
+
+/* line 359, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-0 {
+  padding-right: 0 !important;
+}
+
+/* line 362, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-1 {
+  padding-right: 8px !important;
+}
+
+/* line 365, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-2 {
+  padding-right: 16px !important;
+}
+
+/* line 368, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-3 {
+  padding-right: 24px !important;
+}
+
+/* line 371, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-4 {
+  padding-right: 32px !important;
+}
+
+/* line 374, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-5 {
+  padding-right: 48px !important;
+}
+
+/* line 377, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-6 {
+  padding-right: 64px !important;
+}
+
+/* line 380, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-7 {
+  padding-right: 72px !important;
+}
+
+/* line 383, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-8 {
+  padding-right: 96px !important;
+}
+
+/* line 386, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pr-9 {
+  padding-right: 128px !important;
+}
+
+/* line 391, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-0 {
+  padding-bottom: 0 !important;
+}
+
+/* line 394, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-1 {
+  padding-bottom: 8px !important;
+}
+
+/* line 397, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-2 {
+  padding-bottom: 16px !important;
+}
+
+/* line 400, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-3 {
+  padding-bottom: 24px !important;
+}
+
+/* line 403, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-4 {
+  padding-bottom: 32px !important;
+}
+
+/* line 406, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-5 {
+  padding-bottom: 48px !important;
+}
+
+/* line 409, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-6 {
+  padding-bottom: 64px !important;
+}
+
+/* line 412, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-7 {
+  padding-bottom: 72px !important;
+}
+
+/* line 415, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-8 {
+  padding-bottom: 96px !important;
+}
+
+/* line 418, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.pb-9 {
+  padding-bottom: 128px !important;
+}
+
+/* line 422, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-0 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 426, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-1 {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+/* line 430, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-2 {
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+}
+
+/* line 434, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-3 {
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+/* line 438, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-4 {
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+}
+
+/* line 442, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-5 {
+  padding-left: 48px !important;
+  padding-right: 48px !important;
+}
+
+/* line 446, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-6 {
+  padding-left: 64px !important;
+  padding-right: 64px !important;
+}
+
+/* line 450, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-7 {
+  padding-left: 72px !important;
+  padding-right: 72px !important;
+}
+
+/* line 454, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-8 {
+  padding-left: 96px !important;
+  padding-right: 96px !important;
+}
+
+/* line 458, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.px-9 {
+  padding-left: 128px !important;
+  padding-right: 128px !important;
+}
+
+/* line 464, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-0 {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* line 468, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-1 {
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+/* line 472, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-2 {
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* line 476, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-3 {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+
+/* line 480, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-4 {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+/* line 484, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-5 {
+  padding-top: 48px !important;
+  padding-bottom: 48px !important;
+}
+
+/* line 488, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-6 {
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+}
+
+/* line 492, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-7 {
+  padding-top: 72px !important;
+  padding-bottom: 72px !important;
+}
+
+/* line 496, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-8 {
+  padding-top: 96px !important;
+  padding-bottom: 96px !important;
+}
+
+/* line 500, ../../VSProjects/blog/src/css/sass/_spacing.scss */
+.py-9 {
+  padding-top: 128px !important;
+  padding-bottom: 128px !important;
+}
+
+/*GENERAL*/
+/* line 3, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.flex {
+  display: flex;
+}
+
+/* line 7, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 13, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.container {
+  max-width: 1200px;
+  margin: 0  auto;
+  padding: 8px 24px;
+}
+
+/* line 19, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.border {
+  outline: 1px solid #53ffa9;
+}
+
+/* line 23, ../../VSProjects/blog/src/css/sass/_layout.scss */
+a {
+  text-decoration: none;
+  color: #EDEFF0;
+}
+
+/*HEADER*/
+/* line 30, ../../VSProjects/blog/src/css/sass/_layout.scss */
+header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* line 36, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+/* line 39, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.menu li {
+  margin-left: 24px;
+}
+
+/* line 44, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.nav-link {
+  display: inline-block;
+  padding: 8px;
+  transition: .5s ease;
+}
+
+/* line 50, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.nav-link:hover {
+  opacity: .7;
+}
+
+/* line 54, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.input_search {
+  height: 48px;
+  min-width: 300px;
+  background-color: #15171A;
+  border: 0;
+  border-radius: 4px;
+  color: #FAFCFC;
+  padding: 8px;
+}
+
+/* line 64, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.img-profile {
+  width: 56px;
+  height: 56px;
+  background-color: #4E4E50;
+  border-radius: 50%;
+}
+
+/* line 71, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.container-posts {
+  display: flex;
+}
+
+/* line 75, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.add-button {
+  display: block;
+  border: 0;
+  background-color: green;
+  color: white;
+  font-size: 64px;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+/* line 85, ../../VSProjects/blog/src/css/sass/_layout.scss */
+.remove-button {
+  display: block;
+  border: 0;
+  background-color: red;
+  color: white;
+  font-size: 64px;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

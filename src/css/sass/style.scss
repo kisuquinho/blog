@@ -12,5 +12,12 @@ body {
     background-color: #050607;
 }
 
+button {
+    padding: 8px;
+    background-color: $white-normal;
+    border: 0;
+    border-radius: 4px;
+}
+
 @import 'spacing';
 @import 'layout';
